@@ -15,12 +15,6 @@ module.exports = {
       env_production : {
         NODE_ENV: 'production'
       }
-    },
-
-    // Second application
-    {
-      name      : 'WEB',
-      script    : 'web.js'
     }
   ],
 
@@ -37,16 +31,16 @@ module.exports = {
       path : '/root/10g/',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
     },
-    dev : {
-      user : 'anthonyk2020@gmail.com',
-      host : '127.0.0.1',
-      ref  : 'origin/master',
-      repo : 'git@github.com:frankie95667/10g.git',
-      path : '/d/Documents/working/10g',
-      'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env dev',
-      env  : {
-        NODE_ENV: 'dev'
-      }
-    }
+    // dev : {
+    //   user : 'anthonyk2020@gmail.com',
+    //   host : '127.0.0.1',
+    //   ref  : 'origin/master',
+    //   repo : 'git@github.com:frankie95667/10g.git',
+    //   path : '/d/Documents/working/10g',
+    //   'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env dev',
+    //   env  : {
+    //     NODE_ENV: 'dev'
+    //   }
+    // }
   }
 };
