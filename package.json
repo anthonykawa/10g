@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/frankie95667/10g/issues"
   },
-  "homepage": "https://github.com/frankie95667/10g#readme"
+  "homepage": "https://github.com/frankie95667/10g#readme",
+  "dependencies": {
+    "serve": "^7.1.1"
+  }
 }

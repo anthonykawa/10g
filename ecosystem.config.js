@@ -6,16 +6,16 @@ module.exports = {
   apps : [
 
     // First application
-    {
-      name      : 'API',
-      script    : 'app.js',
-      env: {
-        COMMON_VARIABLE: 'true'
-      },
-      env_production : {
-        NODE_ENV: 'production'
-      }
-    },
+    // {
+    //   name      : 'API',
+    //   script    : 'app.js',
+    //   env: {
+    //     COMMON_VARIABLE: 'true'
+    //   },
+    //   env_production : {
+    //     NODE_ENV: 'production'
+    //   }
+    // },
 
     // Second application
     {
