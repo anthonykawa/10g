@@ -19,7 +19,7 @@ $(document).ready(function () {
 
     $('#n540_button').click(function () {
         context = {
-            title: "Sunrich N-540 PCIe NBASE-T Card",
+            title: "Sunrich N-540 PCIe 10G NBASE-T Network Card",
             image: "/img/N-540.png",
             features: [
                 { feature: "10Gbps Networking delivers up to 10X-faster data-transfer speeds for bandwidth-demanding tasks over existing cabling" },
@@ -44,7 +44,7 @@ $(document).ready(function () {
 
     $('#USB_NBASE-T_button, #USB_NBASE-T_link').click(function () {
         context = {
-            title: "Surnich USB to NBASE-T Adapter",
+            title: "Sunrich USB-C to 5G/2.5G NBASE-T Adapter",
             image: "/img/USBtoNBASE-T.png",
             features: [
                 { feature: "NBASE-T Networking delivers up to 5X-faster data-transfer speeds for bandwidth-demanding tasks over existing cabling" },
