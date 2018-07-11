@@ -4,7 +4,7 @@
    Author's custom styles
    ========================================================================== */
 
-#carouselExampleSlidesOnly .carousel-item {
+   #carouselExampleSlidesOnly .carousel-item {
     max-height: 492.25px;
     width: auto;
 }
@@ -66,7 +66,7 @@ footer ul {
     color: #0F0F0F;
 }
 
-#n-480Modal .modal-dialog {
+#ProductModal .modal-dialog {
     min-width:50%;
 }
 
@@ -74,6 +74,10 @@ footer ul {
     width: 80%;    
 }
 
+.image-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
 
 /* CONTACT PAGE */
 
@@ -138,7 +142,11 @@ table {
     .feature-box img {
         width: 100%;
         height: auto;
+        position: relative;
+        top: -90px;
     }
+
+
 }
 
 @media screen and (min-width: 991px) and (max-width: 1199px) {
